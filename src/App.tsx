@@ -207,6 +207,10 @@ function App() {
             </Paper>
           </Grid>
         </Grid>
+        <br />
+        <Typography gutterBottom textAlign="center">
+          <a href="https://github.com/ssine/rm-watermark">Github仓库</a>
+        </Typography>
       </Container>
     </div>
   );

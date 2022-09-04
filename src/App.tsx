@@ -96,7 +96,7 @@ function App() {
                   }}
                 >
                   <Button variant="contained" component="label">
-                    上传图片
+                    选择图片
                     <input
                       type="file"
                       accept="image/*"
@@ -109,6 +109,7 @@ function App() {
                     />
                   </Button>
                   <p>或复制图片后直接在本页面粘贴</p>
+                  <div>纯前端处理，不会上传图片。</div>
                 </Grid>
                 <Grid
                   item
